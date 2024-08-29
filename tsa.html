@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSA/TSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <style>
+        body {
+    background-color: rgb(255, 204, 168);
+    margin: 0;
+    min-height: 100vh; /* Change height to min-height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Add this line to enable vertical scrolling */
+}
+
+.top {
+    background-color: rgb(0, 217, 255);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    width: 100%;
+    border-style: solid;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 75px;
+    flex: 1;
+}
+
+.cbox {
+    background-color: rgba(0, 0, 0, 0.35); 
+    height: 4000px;
+    width: 90%;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px; 
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.billeder {
+    width: 950px;
+    height: 600px;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 200px;
+}
+
+    </style>
+<body>
+    <div class="top">
+        <h1>TSA/TSS</h1>
+        <p>billeder</p>
+    </div>
+    <div class="cbox">
+        <h1 class="text">Her er alle billeder</h1>
+
+        <img src="2.jpg" alt="" class="billeder">
+        <img src="1.png" alt="" class="billeder">
+        <img src="3.jpg" alt="" class="billeder">
+        <img src="4.jpg" alt="" class="billeder">
+        <img src="5.png" alt="" class="billeder">
+        <img src="6.jpg" alt="" class="billeder">
+        <h1>Lavet af, Theodor, Scott, Alexander og Sebastian</h1>
+        <p>Copyright© 2024 - TSA/TSS</p>
+        
+    </div>
+</body>
+</html>
